@@ -34,7 +34,7 @@ test('Test successful completion of car leasing flow until eligibility check', a
     await login.otp()
     await login.loginOtp()
     //await expect(page).toHaveURL(findCarsUrl)
-/*
+
 //Find Car
 await findcar.findcar()
 
@@ -84,7 +84,7 @@ await address.city("kolhapur")
 await address.state()
 await address.maharashtra()
 await address.continue()
-*/
+
 //bank statement upload
 //await bank.selfemployed()
 await bank.continue()
